@@ -1,1 +1,0 @@
-../../../LPDQuoteImagesView/LPDQuoteImagesView/Classes/LPDQuoteImagesView.h

@@ -1,58 +1,26 @@
 PODS:
-  - AFNetworking (3.1.0):
-    - AFNetworking/NSURLSession (= 3.1.0)
-    - AFNetworking/Reachability (= 3.1.0)
-    - AFNetworking/Security (= 3.1.0)
-    - AFNetworking/Serialization (= 3.1.0)
-    - AFNetworking/UIKit (= 3.1.0)
-  - AFNetworking/NSURLSession (3.1.0):
-    - AFNetworking/Reachability
-    - AFNetworking/Security
-    - AFNetworking/Serialization
-  - AFNetworking/Reachability (3.1.0)
-  - AFNetworking/Security (3.1.0)
-  - AFNetworking/Serialization (3.1.0)
-  - AFNetworking/UIKit (3.1.0):
-    - AFNetworking/NSURLSession
-  - DACircularProgress (2.3.1)
-  - IQAudioRecorderController (1.2.0):
-    - SCSiriWaveformView
-  - LPDQuoteImagesView (0.3.1)
   - Masonry (1.0.2)
   - NIMSDK (4.1.0)
-  - SCSiriWaveformView (1.1.1)
   - SDWebImage (4.1.0):
     - SDWebImage/Core (= 4.1.0)
   - SDWebImage/Core (4.1.0)
   - SVProgressHUD (2.1.2)
-  - SYPhotoBrowser (2.2):
-    - DACircularProgress
-    - SDWebImage
   - YYModel (1.0.4)
 
 DEPENDENCIES:
-  - AFNetworking
-  - IQAudioRecorderController
-  - LPDQuoteImagesView
   - Masonry
   - NIMSDK
+  - SDWebImage
   - SVProgressHUD
-  - SYPhotoBrowser
   - YYModel
 
 SPEC CHECKSUMS:
-  AFNetworking: 5e0e199f73d8626b11e79750991f5d173d1f8b67
-  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
-  IQAudioRecorderController: 1d46d99330cb2c9381568665d123cf435460a43e
-  LPDQuoteImagesView: 5e60a06696df6fef7546d038371cbf17b7830d52
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
   NIMSDK: aa7c00ddc66181f75d8d970f7f5ab00ca95dd374
-  SCSiriWaveformView: 15b9dd6f94c7536e2032b34a35c6ff74d38c7411
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
-  SYPhotoBrowser: 3d07334dbcf6430f7f028f32a14f8ec77bc61fe2
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: d4af1f045f6e0f717993c3c83d158e72be9d8be2
+PODFILE CHECKSUM: 9402ce450e597c6874df97debee2f279b85f2d46
 
 COCOAPODS: 1.2.1

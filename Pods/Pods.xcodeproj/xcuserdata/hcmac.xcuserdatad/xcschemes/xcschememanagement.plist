@@ -4,37 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>AFNetworking.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>DACircularProgress.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>IQAudioRecorderController.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>LPDQuoteImagesView.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>Masonry.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
 		<key>Pods-YunXinDemo.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
-		<key>SCSiriWaveformView.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
@@ -49,11 +24,6 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>SYPhotoBrowser.xcscheme</key>
-		<dict>
-			<key>isShown</key>
-			<false/>
-		</dict>
 		<key>YYModel.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -62,17 +32,17 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1AC6A7A7D5A5F15526E9FC2CD63856F7</key>
+		<key>58349E6FF690CF1DBB98E23F29E37F50</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4A923C75D5CD89D75BDFCB39F4590485</key>
+		<key>592670F4A3E55B231A46E33D243690D1</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>785DBC17B18240EFD78C2565ED2A0E15</key>
+		<key>602B685306D79C692148B08F69C12CDF</key>
 		<dict>
 			<key>primary</key>
 			<true/>
@@ -82,37 +52,7 @@
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>9E033EDB5EC0819481B0546434FA577B</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A3207C8E40EF854A7BE058BC1545D98A</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>C791F0A928C1A8FE97074DFC9ACF4E75</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>CD56D33426996B6560DC9D88A2A32B38</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>EEC91D3FE77317F328C05D14F415964D</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>F2AF8ED40FBF305E34698E4EAE3AEDEA</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>FD53E3BD1F53D2E054A9906EDD5EDF6B</key>
+		<key>ACD10022C6EB0B03173267B12F593478</key>
 		<dict>
 			<key>primary</key>
 			<true/>

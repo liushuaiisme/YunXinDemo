@@ -1,1 +1,0 @@
-../../../SYPhotoBrowser/SYPhotoBrowser/SYPhotoBrowser/SYPhotoBrowserCaptionLabel.h

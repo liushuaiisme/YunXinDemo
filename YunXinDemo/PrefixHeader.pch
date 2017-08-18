@@ -14,11 +14,10 @@
 #import <NIMAVChat/NIMAVChat.h>
 #import <Masonry.h>
 #import <SVProgressHUD.h>
-#import <AFNetworking.h>
 #import <YYModel.h>
 #import <UIImageView+WebCache.h>
 #import <UIButton+WebCache.h>
-//#include "libyuv.mm"
+
 //分类
 #import "SVProgressHUD+Ext.h"
 
