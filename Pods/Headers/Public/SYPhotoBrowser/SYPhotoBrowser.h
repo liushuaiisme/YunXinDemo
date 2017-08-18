@@ -1,0 +1,1 @@
+../../../SYPhotoBrowser/SYPhotoBrowser/SYPhotoBrowser/SYPhotoBrowser.h

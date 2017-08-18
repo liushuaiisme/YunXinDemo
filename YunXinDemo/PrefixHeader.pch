@@ -1,0 +1,77 @@
+//
+//  PrefixHeader.pch
+//  YunXinDemo
+//
+//  Created by HCMac on 2017/7/6.
+//  Copyright © 2017年 demo. All rights reserved.
+//
+
+#ifndef PrefixHeader_pch
+#define PrefixHeader_pch
+
+//导入第三方库
+#import <NIMSDK/NIMSDK.h>
+#import <NIMAVChat/NIMAVChat.h>
+#import <Masonry.h>
+#import <SVProgressHUD.h>
+#import <AFNetworking.h>
+#import <YYModel.h>
+#import <UIImageView+WebCache.h>
+#import <UIButton+WebCache.h>
+//#include "libyuv.mm"
+//分类
+#import "SVProgressHUD+Ext.h"
+
+
+
+//网易云信的key (换成自己的key,具体去官网看注册app后会有)
+#define NIMAppKey @""
+//两个测试帐号
+#define NIMCount1 @"10047"
+#define NIMPassword1   @""
+
+#define NIMCount2 @"10052"
+#define NIMPassword2   @""
+
+
+
+#define dispatch_async_main_safe(block)\
+if ([NSThread isMainThread]) {\
+block();\
+} else {\
+dispatch_async(dispatch_get_main_queue(), block);\
+}
+
+
+#define NTES_FORBID_INTERACTIVE_POP - (BOOL)forbidInteractivePop{return YES;}
+
+
+//log调试打印
+#ifdef DEBUG
+#define DLog(fmt, ...) NSLog((@"%@%s-" fmt),  NSStringFromClass([self class]),__PRETTY_FUNCTION__, ##__VA_ARGS__);
+#else
+#define DLog(...)
+#endif
+
+
+//屏幕尺寸
+
+#define ScreenBounds  [[UIScreen mainScreen] bounds]
+#define ScreenSize    [[UIscreen mainScreen] bounds].size
+#define ScreenWidh    [UIScreen mainScreen].bounds.size.width
+#define ScreenHeight  [UIScreen mainScreen].bounds.size.height
+
+
+
+#define LEFT                         36 * WIDTH_SIZE
+
+#define WIDTH_SIZE                  [UIScreen mainScreen].bounds.size.width / 750
+#define HEIGHT_SIZE                 [UIScreen mainScreen].bounds.size.height / 1334
+
+
+#define NAV_Bar_Height 64
+#define TAB_Bar_Height 49
+
+
+
+#endif /* PrefixHeader_pch */

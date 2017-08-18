@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "NTESNotificationCenter.h"
+
 @interface AppDelegate ()
 
 @end
@@ -16,7 +18,23 @@
 
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
-    // Override point for customization after application launch.
+    
+    //注册SDK
+    [[NIMSDK sharedSDK] registerWithAppID:NIMAppKey
+                                  cerName:nil];
+    
+    //手动登录
+    [[[NIMSDK sharedSDK]loginManager]login:NIMCount1 token:NIMPassword1 completion:^(NSError * _Nullable error) {
+        if (!error) {
+            
+        }else{
+            NSLog(@"%@",error);
+        }
+    }];
+    
+    //注册通知,用来通知被叫响应
+    [[NTESNotificationCenter sharedCenter] start];
+    
     return YES;
 }
 

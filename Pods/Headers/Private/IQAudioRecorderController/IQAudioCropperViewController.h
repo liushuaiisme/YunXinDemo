@@ -1,0 +1,1 @@
+../../../IQAudioRecorderController/IQAudioRecorderController/IQAudioCropperViewController.h

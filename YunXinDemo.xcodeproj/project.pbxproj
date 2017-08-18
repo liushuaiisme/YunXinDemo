@@ -7,15 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		32D1FFEEB8F3610DF12A0ED4 /* libPods-YunXinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C623EE0EA814AA99BCC1CAFA /* libPods-YunXinDemo.a */; };
+		579A39741F0E1FFA00903E33 /* video_chat_tip_receiver.aac in Resources */ = {isa = PBXBuildFile; fileRef = 579A39721F0E1FFA00903E33 /* video_chat_tip_receiver.aac */; };
+		579A39751F0E1FFA00903E33 /* video_chat_tip_sender.aac in Resources */ = {isa = PBXBuildFile; fileRef = 579A39731F0E1FFA00903E33 /* video_chat_tip_sender.aac */; };
 		57D54A1F1F0DD61F005C2254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A1E1F0DD61F005C2254 /* main.m */; };
 		57D54A221F0DD61F005C2254 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A211F0DD61F005C2254 /* AppDelegate.m */; };
 		57D54A251F0DD61F005C2254 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A241F0DD61F005C2254 /* ViewController.m */; };
 		57D54A281F0DD61F005C2254 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D54A261F0DD61F005C2254 /* Main.storyboard */; };
 		57D54A2A1F0DD61F005C2254 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 57D54A291F0DD61F005C2254 /* Assets.xcassets */; };
 		57D54A2D1F0DD61F005C2254 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 57D54A2B1F0DD61F005C2254 /* LaunchScreen.storyboard */; };
+		57D54A471F0DD705005C2254 /* LSAudioController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A381F0DD705005C2254 /* LSAudioController.m */; };
+		57D54A481F0DD705005C2254 /* LSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3A1F0DD705005C2254 /* LSVideoController.m */; };
+		57D54A491F0DD705005C2254 /* LSTempModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3D1F0DD705005C2254 /* LSTempModel.m */; };
+		57D54A4A1F0DD705005C2254 /* NetCallChatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3F1F0DD705005C2254 /* NetCallChatInfo.m */; };
+		57D54A4B1F0DD705005C2254 /* NTESGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A411F0DD705005C2254 /* NTESGLView.m */; };
+		57D54A4C1F0DD705005C2254 /* NTESNetChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */; };
+		57D54A4D1F0DD705005C2254 /* NTESVideoChatNetStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A451F0DD705005C2254 /* NTESVideoChatNetStatusView.m */; };
+		57D54A591F0DD72E005C2254 /* NTESBundleSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A501F0DD72E005C2254 /* NTESBundleSetting.m */; };
+		57D54A5A1F0DD72E005C2254 /* NTESClientUtil.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A521F0DD72E005C2254 /* NTESClientUtil.m */; };
+		57D54A5B1F0DD72E005C2254 /* NTESNotificationCenter.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A541F0DD72E005C2254 /* NTESNotificationCenter.m */; };
+		57D54A5C1F0DD72E005C2254 /* NTESService.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A561F0DD72E005C2254 /* NTESService.m */; };
+		57D54A5D1F0DD72E005C2254 /* NTESTimerHolder.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A581F0DD72E005C2254 /* NTESTimerHolder.m */; };
+		57D54A771F0DD74A005C2254 /* LSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A601F0DD74A005C2254 /* LSLabel.m */; };
+		57D54A7E1F0DD74A005C2254 /* SVProgressHUD+Ext.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A6E1F0DD74A005C2254 /* SVProgressHUD+Ext.m */; };
+		57D54A821F0DD74A005C2254 /* UIView+NTES.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A761F0DD74A005C2254 /* UIView+NTES.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		075CC4287CD16C9BE3D2DD46 /* Pods-YunXinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunXinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YunXinDemo/Pods-YunXinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		579A39721F0E1FFA00903E33 /* video_chat_tip_receiver.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_receiver.aac; sourceTree = "<group>"; };
+		579A39731F0E1FFA00903E33 /* video_chat_tip_sender.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_sender.aac; sourceTree = "<group>"; };
 		57D54A1A1F0DD61F005C2254 /* YunXinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunXinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		57D54A1E1F0DD61F005C2254 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		57D54A201F0DD61F005C2254 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +47,39 @@
 		57D54A291F0DD61F005C2254 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		57D54A2C1F0DD61F005C2254 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		57D54A2E1F0DD61F005C2254 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		57D54A371F0DD705005C2254 /* LSAudioController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSAudioController.h; sourceTree = "<group>"; };
+		57D54A381F0DD705005C2254 /* LSAudioController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSAudioController.m; sourceTree = "<group>"; };
+		57D54A391F0DD705005C2254 /* LSVideoController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSVideoController.h; sourceTree = "<group>"; };
+		57D54A3A1F0DD705005C2254 /* LSVideoController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSVideoController.m; sourceTree = "<group>"; };
+		57D54A3C1F0DD705005C2254 /* LSTempModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSTempModel.h; sourceTree = "<group>"; };
+		57D54A3D1F0DD705005C2254 /* LSTempModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTempModel.m; sourceTree = "<group>"; };
+		57D54A3E1F0DD705005C2254 /* NetCallChatInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetCallChatInfo.h; sourceTree = "<group>"; };
+		57D54A3F1F0DD705005C2254 /* NetCallChatInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetCallChatInfo.m; sourceTree = "<group>"; };
+		57D54A401F0DD705005C2254 /* NTESGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESGLView.h; sourceTree = "<group>"; };
+		57D54A411F0DD705005C2254 /* NTESGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESGLView.m; sourceTree = "<group>"; };
+		57D54A421F0DD705005C2254 /* NTESNetChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESNetChatViewController.h; sourceTree = "<group>"; };
+		57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESNetChatViewController.m; sourceTree = "<group>"; };
+		57D54A441F0DD705005C2254 /* NTESVideoChatNetStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESVideoChatNetStatusView.h; sourceTree = "<group>"; };
+		57D54A451F0DD705005C2254 /* NTESVideoChatNetStatusView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESVideoChatNetStatusView.m; sourceTree = "<group>"; };
+		57D54A4F1F0DD72E005C2254 /* NTESBundleSetting.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESBundleSetting.h; sourceTree = "<group>"; };
+		57D54A501F0DD72E005C2254 /* NTESBundleSetting.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESBundleSetting.m; sourceTree = "<group>"; };
+		57D54A511F0DD72E005C2254 /* NTESClientUtil.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESClientUtil.h; sourceTree = "<group>"; };
+		57D54A521F0DD72E005C2254 /* NTESClientUtil.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESClientUtil.m; sourceTree = "<group>"; };
+		57D54A531F0DD72E005C2254 /* NTESNotificationCenter.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESNotificationCenter.h; sourceTree = "<group>"; };
+		57D54A541F0DD72E005C2254 /* NTESNotificationCenter.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESNotificationCenter.m; sourceTree = "<group>"; };
+		57D54A551F0DD72E005C2254 /* NTESService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESService.h; sourceTree = "<group>"; };
+		57D54A561F0DD72E005C2254 /* NTESService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESService.m; sourceTree = "<group>"; };
+		57D54A571F0DD72E005C2254 /* NTESTimerHolder.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESTimerHolder.h; sourceTree = "<group>"; };
+		57D54A581F0DD72E005C2254 /* NTESTimerHolder.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESTimerHolder.m; sourceTree = "<group>"; };
+		57D54A5F1F0DD74A005C2254 /* LSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSLabel.h; sourceTree = "<group>"; };
+		57D54A601F0DD74A005C2254 /* LSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSLabel.m; sourceTree = "<group>"; };
+		57D54A6D1F0DD74A005C2254 /* SVProgressHUD+Ext.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD+Ext.h"; sourceTree = "<group>"; };
+		57D54A6E1F0DD74A005C2254 /* SVProgressHUD+Ext.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD+Ext.m"; sourceTree = "<group>"; };
+		57D54A751F0DD74A005C2254 /* UIView+NTES.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+NTES.h"; sourceTree = "<group>"; };
+		57D54A761F0DD74A005C2254 /* UIView+NTES.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+NTES.m"; sourceTree = "<group>"; };
+		57D54A831F0DD779005C2254 /* PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		C623EE0EA814AA99BCC1CAFA /* libPods-YunXinDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-YunXinDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		DE59012649B420779EE14186 /* Pods-YunXinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunXinDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-YunXinDemo/Pods-YunXinDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,17 +87,38 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32D1FFEEB8F3610DF12A0ED4 /* libPods-YunXinDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		23CEAB0001F9A588D8531CAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DE59012649B420779EE14186 /* Pods-YunXinDemo.debug.xcconfig */,
+				075CC4287CD16C9BE3D2DD46 /* Pods-YunXinDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		579A39711F0E1FFA00903E33 /* Sounds */ = {
+			isa = PBXGroup;
+			children = (
+				579A39721F0E1FFA00903E33 /* video_chat_tip_receiver.aac */,
+				579A39731F0E1FFA00903E33 /* video_chat_tip_sender.aac */,
+			);
+			path = Sounds;
+			sourceTree = "<group>";
+		};
 		57D54A111F0DD61F005C2254 = {
 			isa = PBXGroup;
 			children = (
 				57D54A1C1F0DD61F005C2254 /* YunXinDemo */,
 				57D54A1B1F0DD61F005C2254 /* Products */,
+				23CEAB0001F9A588D8531CAB /* Pods */,
+				63ED1F4782BA9A697BA70103 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,15 +133,16 @@
 		57D54A1C1F0DD61F005C2254 /* YunXinDemo */ = {
 			isa = PBXGroup;
 			children = (
+				579A39711F0E1FFA00903E33 /* Sounds */,
+				57D54A5E1F0DD74A005C2254 /* Category */,
+				57D54A4E1F0DD72E005C2254 /* Util */,
+				57D54A341F0DD705005C2254 /* videoChat */,
 				57D54A201F0DD61F005C2254 /* AppDelegate.h */,
 				57D54A211F0DD61F005C2254 /* AppDelegate.m */,
 				57D54A231F0DD61F005C2254 /* ViewController.h */,
 				57D54A241F0DD61F005C2254 /* ViewController.m */,
-				57D54A261F0DD61F005C2254 /* Main.storyboard */,
-				57D54A291F0DD61F005C2254 /* Assets.xcassets */,
-				57D54A2B1F0DD61F005C2254 /* LaunchScreen.storyboard */,
-				57D54A2E1F0DD61F005C2254 /* Info.plist */,
 				57D54A1D1F0DD61F005C2254 /* Supporting Files */,
+				57D54A831F0DD779005C2254 /* PrefixHeader.pch */,
 			);
 			path = YunXinDemo;
 			sourceTree = "<group>";
@@ -74,9 +150,80 @@
 		57D54A1D1F0DD61F005C2254 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				57D54A261F0DD61F005C2254 /* Main.storyboard */,
+				57D54A2B1F0DD61F005C2254 /* LaunchScreen.storyboard */,
+				57D54A291F0DD61F005C2254 /* Assets.xcassets */,
+				57D54A2E1F0DD61F005C2254 /* Info.plist */,
 				57D54A1E1F0DD61F005C2254 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		57D54A341F0DD705005C2254 /* videoChat */ = {
+			isa = PBXGroup;
+			children = (
+				57D54A371F0DD705005C2254 /* LSAudioController.h */,
+				57D54A381F0DD705005C2254 /* LSAudioController.m */,
+				57D54A391F0DD705005C2254 /* LSVideoController.h */,
+				57D54A3A1F0DD705005C2254 /* LSVideoController.m */,
+				57D54A3B1F0DD705005C2254 /* Model */,
+				57D54A401F0DD705005C2254 /* NTESGLView.h */,
+				57D54A411F0DD705005C2254 /* NTESGLView.m */,
+				57D54A421F0DD705005C2254 /* NTESNetChatViewController.h */,
+				57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */,
+				57D54A441F0DD705005C2254 /* NTESVideoChatNetStatusView.h */,
+				57D54A451F0DD705005C2254 /* NTESVideoChatNetStatusView.m */,
+			);
+			path = videoChat;
+			sourceTree = "<group>";
+		};
+		57D54A3B1F0DD705005C2254 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				57D54A3C1F0DD705005C2254 /* LSTempModel.h */,
+				57D54A3D1F0DD705005C2254 /* LSTempModel.m */,
+				57D54A3E1F0DD705005C2254 /* NetCallChatInfo.h */,
+				57D54A3F1F0DD705005C2254 /* NetCallChatInfo.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		57D54A4E1F0DD72E005C2254 /* Util */ = {
+			isa = PBXGroup;
+			children = (
+				57D54A4F1F0DD72E005C2254 /* NTESBundleSetting.h */,
+				57D54A501F0DD72E005C2254 /* NTESBundleSetting.m */,
+				57D54A511F0DD72E005C2254 /* NTESClientUtil.h */,
+				57D54A521F0DD72E005C2254 /* NTESClientUtil.m */,
+				57D54A531F0DD72E005C2254 /* NTESNotificationCenter.h */,
+				57D54A541F0DD72E005C2254 /* NTESNotificationCenter.m */,
+				57D54A551F0DD72E005C2254 /* NTESService.h */,
+				57D54A561F0DD72E005C2254 /* NTESService.m */,
+				57D54A571F0DD72E005C2254 /* NTESTimerHolder.h */,
+				57D54A581F0DD72E005C2254 /* NTESTimerHolder.m */,
+			);
+			path = Util;
+			sourceTree = "<group>";
+		};
+		57D54A5E1F0DD74A005C2254 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				57D54A5F1F0DD74A005C2254 /* LSLabel.h */,
+				57D54A601F0DD74A005C2254 /* LSLabel.m */,
+				57D54A6D1F0DD74A005C2254 /* SVProgressHUD+Ext.h */,
+				57D54A6E1F0DD74A005C2254 /* SVProgressHUD+Ext.m */,
+				57D54A751F0DD74A005C2254 /* UIView+NTES.h */,
+				57D54A761F0DD74A005C2254 /* UIView+NTES.m */,
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		63ED1F4782BA9A697BA70103 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C623EE0EA814AA99BCC1CAFA /* libPods-YunXinDemo.a */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -86,9 +233,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 57D54A311F0DD61F005C2254 /* Build configuration list for PBXNativeTarget "YunXinDemo" */;
 			buildPhases = (
+				CC4555D9C384CE384CC90893 /* [CP] Check Pods Manifest.lock */,
 				57D54A161F0DD61F005C2254 /* Sources */,
 				57D54A171F0DD61F005C2254 /* Frameworks */,
 				57D54A181F0DD61F005C2254 /* Resources */,
+				5EA062DE3D5CE7D51DDEB61C /* [CP] Embed Pods Frameworks */,
+				8CB69F0629965FC80F3633A9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -110,6 +260,7 @@
 				TargetAttributes = {
 					57D54A191F0DD61F005C2254 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = CG2H52LECZ;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -137,22 +288,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				579A39741F0E1FFA00903E33 /* video_chat_tip_receiver.aac in Resources */,
 				57D54A2D1F0DD61F005C2254 /* LaunchScreen.storyboard in Resources */,
 				57D54A2A1F0DD61F005C2254 /* Assets.xcassets in Resources */,
 				57D54A281F0DD61F005C2254 /* Main.storyboard in Resources */,
+				579A39751F0E1FFA00903E33 /* video_chat_tip_sender.aac in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5EA062DE3D5CE7D51DDEB61C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YunXinDemo/Pods-YunXinDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8CB69F0629965FC80F3633A9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-YunXinDemo/Pods-YunXinDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CC4555D9C384CE384CC90893 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		57D54A161F0DD61F005C2254 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				57D54A481F0DD705005C2254 /* LSVideoController.m in Sources */,
+				57D54A491F0DD705005C2254 /* LSTempModel.m in Sources */,
+				57D54A821F0DD74A005C2254 /* UIView+NTES.m in Sources */,
 				57D54A251F0DD61F005C2254 /* ViewController.m in Sources */,
+				57D54A4A1F0DD705005C2254 /* NetCallChatInfo.m in Sources */,
+				57D54A591F0DD72E005C2254 /* NTESBundleSetting.m in Sources */,
+				57D54A5D1F0DD72E005C2254 /* NTESTimerHolder.m in Sources */,
+				57D54A5B1F0DD72E005C2254 /* NTESNotificationCenter.m in Sources */,
+				57D54A771F0DD74A005C2254 /* LSLabel.m in Sources */,
 				57D54A221F0DD61F005C2254 /* AppDelegate.m in Sources */,
+				57D54A4B1F0DD705005C2254 /* NTESGLView.m in Sources */,
 				57D54A1F1F0DD61F005C2254 /* main.m in Sources */,
+				57D54A4C1F0DD705005C2254 /* NTESNetChatViewController.m in Sources */,
+				57D54A7E1F0DD74A005C2254 /* SVProgressHUD+Ext.m in Sources */,
+				57D54A5A1F0DD72E005C2254 /* NTESClientUtil.m in Sources */,
+				57D54A471F0DD705005C2254 /* LSAudioController.m in Sources */,
+				57D54A5C1F0DD72E005C2254 /* NTESService.m in Sources */,
+				57D54A4D1F0DD705005C2254 /* NTESVideoChatNetStatusView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +425,7 @@
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREFIX_HEADER = "$(SRCROOT)";
 				GCC_PREPROCESSOR_DEFINITIONS = (
 					"DEBUG=1",
 					"$(inherited)",
@@ -219,7 +436,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -255,13 +472,14 @@
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)";
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
 				GCC_WARN_UNDECLARED_SELECTOR = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -270,23 +488,67 @@
 		};
 		57D54A321F0DD61F005C2254 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = DE59012649B420779EE14186 /* Pods-YunXinDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG2H52LECZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunXinDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/IQAudioRecorderController\"",
+					"\"${PODS_ROOT}/Headers/Public/LPDQuoteImagesView\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/NIMSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/SCSiriWaveformView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/SYPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+				);
 				INFOPLIST_FILE = YunXinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.other.YunXinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USE_HEADERMAP = YES;
 			};
 			name = Debug;
 		};
 		57D54A331F0DD61F005C2254 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 075CC4287CD16C9BE3D2DD46 /* Pods-YunXinDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = CG2H52LECZ;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/YunXinDemo/PrefixHeader.pch";
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/Headers/Public\"",
+					"\"${PODS_ROOT}/Headers/Public/AFNetworking\"",
+					"\"${PODS_ROOT}/Headers/Public/DACircularProgress\"",
+					"\"${PODS_ROOT}/Headers/Public/GPUImage\"",
+					"\"${PODS_ROOT}/Headers/Public/IQAudioRecorderController\"",
+					"\"${PODS_ROOT}/Headers/Public/LPDQuoteImagesView\"",
+					"\"${PODS_ROOT}/Headers/Public/Masonry\"",
+					"\"${PODS_ROOT}/Headers/Public/NIMSDK\"",
+					"\"${PODS_ROOT}/Headers/Public/SCSiriWaveformView\"",
+					"\"${PODS_ROOT}/Headers/Public/SDWebImage\"",
+					"\"${PODS_ROOT}/Headers/Public/SVProgressHUD\"",
+					"\"${PODS_ROOT}/Headers/Public/SYPhotoBrowser\"",
+					"\"${PODS_ROOT}/Headers/Public/YYModel\"",
+				);
 				INFOPLIST_FILE = YunXinDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.other.YunXinDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				USE_HEADERMAP = YES;
 			};
 			name = Release;
 		};
@@ -309,6 +571,7 @@
 				57D54A331F0DD61F005C2254 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
