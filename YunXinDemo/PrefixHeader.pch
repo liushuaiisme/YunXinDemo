@@ -9,7 +9,11 @@
 #ifndef PrefixHeader_pch
 #define PrefixHeader_pch
 
+
+#ifdef __OBJC__
 //导入第三方库
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
 #import <NIMSDK/NIMSDK.h>
 #import <NIMAVChat/NIMAVChat.h>
 #import <Masonry.h>
@@ -17,19 +21,17 @@
 #import <YYModel.h>
 #import <UIImageView+WebCache.h>
 #import <UIButton+WebCache.h>
-
 //分类
 #import "SVProgressHUD+Ext.h"
-
 
 
 //网易云信的key (换成自己的key,具体去官网看注册app后会有)
 #define NIMAppKey @""
 //两个测试帐号
-#define NIMCount1 @"10047"
+#define NIMCount1 @""
 #define NIMPassword1   @""
 
-#define NIMCount2 @"10052"
+#define NIMCount2 @""
 #define NIMPassword2   @""
 
 
@@ -60,17 +62,13 @@ dispatch_async(dispatch_get_main_queue(), block);\
 #define ScreenWidh    [UIScreen mainScreen].bounds.size.width
 #define ScreenHeight  [UIScreen mainScreen].bounds.size.height
 
-
-
 #define LEFT                         36 * WIDTH_SIZE
-
 #define WIDTH_SIZE                  [UIScreen mainScreen].bounds.size.width / 750
 #define HEIGHT_SIZE                 [UIScreen mainScreen].bounds.size.height / 1334
-
-
 #define NAV_Bar_Height 64
 #define TAB_Bar_Height 49
 
 
-
+#endif
 #endif /* PrefixHeader_pch */
+

@@ -129,14 +129,15 @@
 
 /* Begin PBXFileReference section */
 		00E4095F82DAFA94DF2C564FBDC0AD69 /* NSObject+YYModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+YYModel.h"; path = "YYModel/NSObject+YYModel.h"; sourceTree = "<group>"; };
-		03691201D8401E6DE1B0A7D0E57FE054 /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMSDK.framework; path = NIMSDK/NIMSDK.framework; sourceTree = "<group>"; };
 		044988001A871253B2F815AB208C98A2 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
 		050D37332081CF40C6341601C9D91E8F /* UIImageView+HighlightedWebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+HighlightedWebCache.m"; path = "SDWebImage/UIImageView+HighlightedWebCache.m"; sourceTree = "<group>"; };
+		0538461873A55C75B436753CD85D9785 /* libnio.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnio.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libnio.a; sourceTree = "<group>"; };
+		0718E00BEDB13BD08218C065AE150C18 /* libGPUImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGPUImage.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libGPUImage.a; sourceTree = "<group>"; };
 		07DD8F375591C8A26B8C44813EEDF598 /* YYModel.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = YYModel.xcconfig; sourceTree = "<group>"; };
 		09C1073EE45D68E4DF229A6B37B49710 /* SDImageCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCache.m; path = SDWebImage/SDImageCache.m; sourceTree = "<group>"; };
 		0D6960CB22CC624D162266793800F5AB /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		0E0F48C52C8DFF555FC3C55B6D0076B0 /* YYModel-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "YYModel-dummy.m"; sourceTree = "<group>"; };
-		1062CB31015A4BE4D9666F6026A2D058 /* libnts.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnts.a; path = NIMAVChat/Libs/libnts.a; sourceTree = "<group>"; };
+		0F29CF18A2488E6661C5C7C74CD7BA6D /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = NIM_iOS_SDK_v4.3.0/NIMSDK/Libs/libcrypto.a; sourceTree = "<group>"; };
 		10E010F7EADDD7E1BD0AB68B1EF03776 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
 		1234B08C4B85CA23CA28D5118119CDD5 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		1349BD4922BDF37CD8F287343068CAA2 /* libSDWebImage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSDWebImage.a; path = libSDWebImage.a; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -144,25 +145,23 @@
 		17C6AC799D95DCDD0A55CA20A3FC66F4 /* SVProgressHUD-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SVProgressHUD-dummy.m"; sourceTree = "<group>"; };
 		180D3B54CAA2D388FFA0C9B865FE2AA1 /* UIView+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCache.h"; path = "SDWebImage/UIView+WebCache.h"; sourceTree = "<group>"; };
 		1B1E5B2D82D584264975AEF1C8204F6E /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		1B53A1E4140B04CBB8B2F692AC84E41A /* libopenh264.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopenh264.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libopenh264.a; sourceTree = "<group>"; };
 		1BBCDDC8EBD4D569ABCFB098B05C676C /* SDWebImage-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SDWebImage-dummy.m"; sourceTree = "<group>"; };
 		1E47244F5565DAAF4BE77A1B056F408D /* UIView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCache.m"; path = "SDWebImage/UIView+WebCache.m"; sourceTree = "<group>"; };
 		1EF10C9EC5BB2FEFA19CF3D07577FE11 /* SDWebImageDownloader.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloader.m; path = SDWebImage/SDWebImageDownloader.m; sourceTree = "<group>"; };
-		1F37C68EAF61C9F3960B1FF4D9DA5C56 /* libnio.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnio.a; path = NIMAVChat/Libs/libnio.a; sourceTree = "<group>"; };
 		21D9EA7B24CF1AD5F4B0DEE664F0E1BF /* UIImage+GIF.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+GIF.h"; path = "SDWebImage/UIImage+GIF.h"; sourceTree = "<group>"; };
-		24D8987C7E2CA130928100ABF4CC33DE /* libaacplus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libaacplus.a; path = NIMSDK/Libs/libaacplus.a; sourceTree = "<group>"; };
 		259002571EA645A0B508EEC39A7A4C7B /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
 		26B6E546E0F2B1AB26726C5D699846E2 /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVIndefiniteAnimatedView.m; path = SVProgressHUD/SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
 		2825858A1F9144AD8122B6B4E2A52DF3 /* SDWebImageManager.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageManager.m; path = SDWebImage/SDWebImageManager.m; sourceTree = "<group>"; };
 		2A7199E621311AA78779EA5E32D1525B /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/ImageIO.framework; sourceTree = DEVELOPER_DIR; };
+		2F761ED453846D3DA8C551FDA6DCB5FC /* NIMAVChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMAVChat.framework; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/NIMAVChat.framework; sourceTree = "<group>"; };
 		315902A0D0DD12C506208C8F8B62646A /* UIView+WebCacheOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+WebCacheOperation.m"; path = "SDWebImage/UIView+WebCacheOperation.m"; sourceTree = "<group>"; };
 		326401692CE4F19C2673991772705F6E /* Pods-YunXinDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-YunXinDemo-dummy.m"; sourceTree = "<group>"; };
 		33B35C842FD5886A195E9B0F89E52850 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
-		353ECD50CDF0A5B208A082051EF82D11 /* NIMAVChat.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMAVChat.framework; path = NIMAVChat/NIMAVChat.framework; sourceTree = "<group>"; };
 		37CA443F23EC0C369EA16CE9E1637324 /* SDImageCacheConfig.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCacheConfig.h; path = SDWebImage/SDImageCacheConfig.h; sourceTree = "<group>"; };
 		39207B8D69D55B63F03551AF50FD9466 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
 		3979480C80272C4BC8981A7BF1893079 /* SDWebImageCompat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageCompat.m; path = SDWebImage/SDWebImageCompat.m; sourceTree = "<group>"; };
 		3982936BD751E464365EA066435A2070 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
-		39A1C3B639E9ECE81FDBD606A7E55557 /* libNMCVideoModule.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNMCVideoModule.a; path = NIMAVChat/Libs/libNMCVideoModule.a; sourceTree = "<group>"; };
 		3C5151D4ECEE428551F8F65DFB0226D3 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
 		3ED5B08D0E94D9C26E5AAD9FE6E051DD /* libYYModel.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libYYModel.a; path = libYYModel.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		412C2297D50521B09E3DF647DD5560B9 /* SDWebImage.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SDWebImage.xcconfig; sourceTree = "<group>"; };
@@ -174,20 +173,23 @@
 		44E00CB7670C5D6317860BC9D221068F /* Pods-YunXinDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-YunXinDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		45ACAEC2B8E9A9752D18AE485CE088A6 /* NSImage+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSImage+WebCache.m"; path = "SDWebImage/NSImage+WebCache.m"; sourceTree = "<group>"; };
 		45B4A81C5942F8D3DF7B4FE5D725E1DB /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
+		49FA5D986D5C6D2B2699A433F8EBADBB /* libnts.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnts.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libnts.a; sourceTree = "<group>"; };
 		4DD4B31D47EBB8C46A6073C8C24B5D0A /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		4F6CFBCC6F8941D326DB81FD937070DE /* YYClassInfo.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = YYClassInfo.m; path = YYModel/YYClassInfo.m; sourceTree = "<group>"; };
 		52D3A2FED9D03BCCF2910D92CBBA4B05 /* Pods-YunXinDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-YunXinDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		53FC81A172C56ED2315A7C636087D8C9 /* libaacplus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libaacplus.a; path = NIM_iOS_SDK_v4.3.0/NIMSDK/Libs/libaacplus.a; sourceTree = "<group>"; };
+		56DB1F54090391A62F1205CD368E8468 /* libopus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopus.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libopus.a; sourceTree = "<group>"; };
 		5A8D0750CDBC746378EF081BD1AD428A /* UIImage+MultiFormat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+MultiFormat.h"; path = "SDWebImage/UIImage+MultiFormat.h"; sourceTree = "<group>"; };
 		5B4A5BB8C987CC866EA37C56E55EA59C /* SDImageCacheConfig.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDImageCacheConfig.m; path = SDWebImage/SDImageCacheConfig.m; sourceTree = "<group>"; };
 		5BF4D242D9E388340E617DE323B80FD2 /* YYModel-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "YYModel-prefix.pch"; sourceTree = "<group>"; };
 		5E6786B6DCF89D70B62DF2E2AA068DEB /* SDWebImageManager.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageManager.h; path = SDWebImage/SDWebImageManager.h; sourceTree = "<group>"; };
 		5EF96AFF23E1CE2F3FBF90A97C0683B6 /* UIImage+MultiFormat.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+MultiFormat.m"; path = "SDWebImage/UIImage+MultiFormat.m"; sourceTree = "<group>"; };
-		6502D01CCCB95152D40E40B9A6392692 /* libopenh264.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopenh264.a; path = NIMAVChat/Libs/libopenh264.a; sourceTree = "<group>"; };
 		679E3E17DE85A8FA2453B21714C078C0 /* SVProgressHUD.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SVProgressHUD.xcconfig; sourceTree = "<group>"; };
 		688AB01421B8DB5ED43B39A6D73F5416 /* NSData+ImageContentType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+ImageContentType.h"; path = "SDWebImage/NSData+ImageContentType.h"; sourceTree = "<group>"; };
 		692CC8620386F6807F81FE065FC82F8F /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		6AA1C35CF76E6D8037CF14B48407BC9B /* Pods-YunXinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YunXinDemo.release.xcconfig"; sourceTree = "<group>"; };
 		6AC91EFC3B7605A7453DCDBD5A301BE7 /* NSData+ImageContentType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+ImageContentType.m"; path = "SDWebImage/NSData+ImageContentType.m"; sourceTree = "<group>"; };
+		75236439E9D233E40A5A185B0527F608 /* libevent.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libevent.a; path = NIM_iOS_SDK_v4.3.0/NIMSDK/Libs/libevent.a; sourceTree = "<group>"; };
 		776A3CA0030F70983C917F29E0E4A7C8 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		78DCAEB0AA5E0DE6858A5C6B7C4E240A /* UIView+WebCacheOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+WebCacheOperation.h"; path = "SDWebImage/UIView+WebCacheOperation.h"; sourceTree = "<group>"; };
 		79A57C810A357A5765D87C080EE61FA0 /* UIImageView+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImageView+WebCache.m"; path = "SDWebImage/UIImageView+WebCache.m"; sourceTree = "<group>"; };
@@ -200,10 +202,8 @@
 		8E0C182DCA8688C380CB7699F8ED60EB /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		8FF35EDDB4253673CE17E6D928F260F7 /* SDWebImageCompat.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageCompat.h; path = SDWebImage/SDWebImageCompat.h; sourceTree = "<group>"; };
 		9200EA0ACF7861E93CC536D42B942F82 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
-		929E15C0E10F20216C978D627A94469A /* libcrypto.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libcrypto.a; path = NIMSDK/Libs/libcrypto.a; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		96C67C60A7D3FFBCBB1B21DBD75736E9 /* Pods-YunXinDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-YunXinDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		99888D8AA72A5AB9B99ED559E8DE4681 /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NMCVideoFilter.bundle; path = NIMAVChat/Resources/NMCVideoFilter.bundle; sourceTree = "<group>"; };
 		9D718BD6D7B640ACCF14C6D61263FAC2 /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E10374AECCE88F6B9E212247012F738 /* UIButton+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+WebCache.h"; path = "SDWebImage/UIButton+WebCache.h"; sourceTree = "<group>"; };
 		9EA9D03CACD3DCD4CEED8681DB4DFD0C /* SVProgressHUD.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressHUD.m; path = SVProgressHUD/SVProgressHUD.m; sourceTree = "<group>"; };
@@ -217,35 +217,35 @@
 		AB41C8FB6EB284A8AD2CF8BEB1E5F717 /* Pods-YunXinDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-YunXinDemo-resources.sh"; sourceTree = "<group>"; };
 		AE34DA3A5E54EC9AD63895A0E8756004 /* SVProgressHUD.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVProgressHUD.h; path = SVProgressHUD/SVProgressHUD.h; sourceTree = "<group>"; };
 		AF2B073A3D76D45D29FCB1F940E76C2A /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVIndefiniteAnimatedView.h; path = SVProgressHUD/SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
-		B00322817130E2364729EDDFC2741EDD /* libGPUImage.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libGPUImage.a; path = NIMAVChat/Libs/libGPUImage.a; sourceTree = "<group>"; };
+		B0F6B610E8DB50714E2DCACBCA775C69 /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = NIM_iOS_SDK_v4.3.0/NIMSDK/Libs/libssl.a; sourceTree = "<group>"; };
 		B23C6CF6BAED9CF5ADCF750636927DC4 /* NSImage+WebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSImage+WebCache.h"; path = "SDWebImage/NSImage+WebCache.h"; sourceTree = "<group>"; };
 		B4C8F5582D1420FFF70AAC87B567631F /* SDWebImageDecoder.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDecoder.h; path = SDWebImage/SDWebImageDecoder.h; sourceTree = "<group>"; };
 		B4D7D498F0CAF0644BEE92AD01BF6EFD /* NSObject+YYModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+YYModel.m"; path = "YYModel/NSObject+YYModel.m"; sourceTree = "<group>"; };
-		C66F616E20AC8FA69F0226E865EF613F /* libssl.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libssl.a; path = NIMSDK/Libs/libssl.a; sourceTree = "<group>"; };
 		C720DACEB122DC5F16D1715F64129065 /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
+		CA53D2829BBF27CAA875501A8086DD46 /* libNMCVideoModule.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libNMCVideoModule.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libNMCVideoModule.a; sourceTree = "<group>"; };
+		D1698014C8FE64B832A455CA60BFD6C7 /* NIMSDK.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = NIMSDK.framework; path = NIM_iOS_SDK_v4.3.0/NIMSDK/NIMSDK.framework; sourceTree = "<group>"; };
 		D280FE15730529ABE43438E5FAD859BB /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
 		D32E82E95EE49277D1E5F5D483B8FCD0 /* libSVProgressHUD.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSVProgressHUD.a; path = libSVProgressHUD.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		D3417A153902B157C2349FA81371B5ED /* YYClassInfo.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = YYClassInfo.h; path = YYModel/YYClassInfo.h; sourceTree = "<group>"; };
 		D43FE8FC3484927393EEA96A34A8A280 /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVRadialGradientLayer.m; path = SVProgressHUD/SVRadialGradientLayer.m; sourceTree = "<group>"; };
 		D835629D9813821EB6825E0C4A0168A3 /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
-		DDD034099B4192CCF1DD7D696DD331D5 /* libnvs.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnvs.a; path = NIMAVChat/Libs/libnvs.a; sourceTree = "<group>"; };
 		DE1726075D915A215577ADAB565A504E /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
 		DFACB49E39C81DF8DB3052BAA2060BF5 /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SVRadialGradientLayer.h; path = SVProgressHUD/SVRadialGradientLayer.h; sourceTree = "<group>"; };
 		E098ECDECA4CB7523D8F4CA9A03D3A26 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		E149EADA20BDCEC320FDA652EC36C379 /* libnvs.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libnvs.a; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Libs/libnvs.a; sourceTree = "<group>"; };
 		E22EC2F04F39087408625D2A536B32B0 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
 		E267478439ABCA8D211899CD807FC722 /* CoreFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreFoundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreFoundation.framework; sourceTree = DEVELOPER_DIR; };
 		E2819DA322C304AB8C49B8B6094A835B /* SVProgressHUD-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-prefix.pch"; sourceTree = "<group>"; };
-		E3BDD49FD533073B507E64BD360499CC /* libopus.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libopus.a; path = NIMAVChat/Libs/libopus.a; sourceTree = "<group>"; };
 		E4324BE23B2AFB501D05B394C76FB6D9 /* SDWebImageDownloaderOperation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SDWebImageDownloaderOperation.m; path = SDWebImage/SDWebImageDownloaderOperation.m; sourceTree = "<group>"; };
 		E485B979ECF8CA066CDBCC22A7DA2D4D /* SDWebImageDownloaderOperation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloaderOperation.h; path = SDWebImage/SDWebImageDownloaderOperation.h; sourceTree = "<group>"; };
 		EA389D83CA262C95C1054372D9A2DC8C /* SDImageCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDImageCache.h; path = SDWebImage/SDImageCache.h; sourceTree = "<group>"; };
 		EC731035F34E9A1550ACBAF133999200 /* UIImageView+HighlightedWebCache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImageView+HighlightedWebCache.h"; path = "SDWebImage/UIImageView+HighlightedWebCache.h"; sourceTree = "<group>"; };
 		ED2859CE0DD9C27ED477EC682503B40E /* SDWebImageDownloader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImageDownloader.h; path = SDWebImage/SDWebImageDownloader.h; sourceTree = "<group>"; };
 		EF994F7562AAA34CA52BD0BC4343AFF0 /* SVProgressHUD.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SVProgressHUD.bundle; path = SVProgressHUD/SVProgressHUD.bundle; sourceTree = "<group>"; };
-		F0183F07671A9BE38C7691D1F69ABEB1 /* libevent.a */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = archive.ar; name = libevent.a; path = NIMSDK/Libs/libevent.a; sourceTree = "<group>"; };
 		F2F5756E700E0ACFC4C4875995922BED /* UIButton+WebCache.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+WebCache.m"; path = "SDWebImage/UIButton+WebCache.m"; sourceTree = "<group>"; };
 		F33966F9B0E1796034525F4F9A98824A /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SVProgressAnimatedView.m; path = SVProgressHUD/SVProgressAnimatedView.m; sourceTree = "<group>"; };
 		F6F803F3EE8B786562BBBDB8DE53ADDB /* SDWebImagePrefetcher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SDWebImagePrefetcher.h; path = SDWebImage/SDWebImagePrefetcher.h; sourceTree = "<group>"; };
+		FD355DC4C3202EBF2EE3CC0F83626BCE /* NMCVideoFilter.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = NMCVideoFilter.bundle; path = NIM_iOS_SDK_v4.3.0/NIMAVChat/Resources/NMCVideoFilter.bundle; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -314,26 +314,6 @@
 			path = SVProgressHUD;
 			sourceTree = "<group>";
 		};
-		19698238E59B838BA33B0DC1C3BDCEBD /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				24D8987C7E2CA130928100ABF4CC33DE /* libaacplus.a */,
-				929E15C0E10F20216C978D627A94469A /* libcrypto.a */,
-				F0183F07671A9BE38C7691D1F69ABEB1 /* libevent.a */,
-				B00322817130E2364729EDDFC2741EDD /* libGPUImage.a */,
-				1F37C68EAF61C9F3960B1FF4D9DA5C56 /* libnio.a */,
-				39A1C3B639E9ECE81FDBD606A7E55557 /* libNMCVideoModule.a */,
-				1062CB31015A4BE4D9666F6026A2D058 /* libnts.a */,
-				DDD034099B4192CCF1DD7D696DD331D5 /* libnvs.a */,
-				6502D01CCCB95152D40E40B9A6392692 /* libopenh264.a */,
-				E3BDD49FD533073B507E64BD360499CC /* libopus.a */,
-				C66F616E20AC8FA69F0226E865EF613F /* libssl.a */,
-				353ECD50CDF0A5B208A082051EF82D11 /* NIMAVChat.framework */,
-				03691201D8401E6DE1B0A7D0E57FE054 /* NIMSDK.framework */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		1E4F5FD20D41F149ACD74370B495BFD0 /* Masonry */ = {
 			isa = PBXGroup;
 			children = (
@@ -380,6 +360,14 @@
 			isa = PBXGroup;
 			children = (
 				EF994F7562AAA34CA52BD0BC4343AFF0 /* SVProgressHUD.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		25A3B20736CEF6448FDE2732137CE76B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				FD355DC4C3202EBF2EE3CC0F83626BCE /* NMCVideoFilter.bundle */,
 			);
 			name = Resources;
 			sourceTree = "<group>";
@@ -502,19 +490,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
-		D0B21ADCD20E53858D41ACB949A8B1F9 /* Resources */ = {
+		D0109B3E2EF2B3653CF4468DF456B57D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				99888D8AA72A5AB9B99ED559E8DE4681 /* NMCVideoFilter.bundle */,
+				53FC81A172C56ED2315A7C636087D8C9 /* libaacplus.a */,
+				0F29CF18A2488E6661C5C7C74CD7BA6D /* libcrypto.a */,
+				75236439E9D233E40A5A185B0527F608 /* libevent.a */,
+				0718E00BEDB13BD08218C065AE150C18 /* libGPUImage.a */,
+				0538461873A55C75B436753CD85D9785 /* libnio.a */,
+				CA53D2829BBF27CAA875501A8086DD46 /* libNMCVideoModule.a */,
+				49FA5D986D5C6D2B2699A433F8EBADBB /* libnts.a */,
+				E149EADA20BDCEC320FDA652EC36C379 /* libnvs.a */,
+				1B53A1E4140B04CBB8B2F692AC84E41A /* libopenh264.a */,
+				56DB1F54090391A62F1205CD368E8468 /* libopus.a */,
+				B0F6B610E8DB50714E2DCACBCA775C69 /* libssl.a */,
+				2F761ED453846D3DA8C551FDA6DCB5FC /* NIMAVChat.framework */,
+				D1698014C8FE64B832A455CA60BFD6C7 /* NIMSDK.framework */,
 			);
-			name = Resources;
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 		EE47E698EB421651E536562F53801880 /* NIMSDK */ = {
 			isa = PBXGroup;
 			children = (
-				19698238E59B838BA33B0DC1C3BDCEBD /* Frameworks */,
-				D0B21ADCD20E53858D41ACB949A8B1F9 /* Resources */,
+				D0109B3E2EF2B3653CF4468DF456B57D /* Frameworks */,
+				25A3B20736CEF6448FDE2732137CE76B /* Resources */,
 			);
 			name = NIMSDK;
 			path = NIMSDK;

@@ -1,1 +1,1 @@
-../../../../NIMSDK/NIMSDK/NIMSDK.framework/Headers/NIMAntiSpamOption.h
+../../../../NIMSDK/NIM_iOS_SDK_v4.3.0/NIMSDK/NIMSDK.framework/Headers/NIMAntiSpamOption.h

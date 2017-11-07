@@ -1,1 +1,1 @@
-../../../../NIMSDK/NIMSDK/NIMSDK.framework/Headers/NIMTipObject.h
+../../../../NIMSDK/NIM_iOS_SDK_v4.3.0/NIMSDK/NIMSDK.framework/Headers/NIMTipObject.h

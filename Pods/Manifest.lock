@@ -1,6 +1,6 @@
 PODS:
   - Masonry (1.0.2)
-  - NIMSDK (4.1.0)
+  - NIMSDK (4.3.0)
   - SDWebImage (4.1.0):
     - SDWebImage/Core (= 4.1.0)
   - SDWebImage/Core (4.1.0)
@@ -16,7 +16,7 @@ DEPENDENCIES:
 
 SPEC CHECKSUMS:
   Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
-  NIMSDK: aa7c00ddc66181f75d8d970f7f5ab00ca95dd374
+  NIMSDK: 4c7d69e30a1d7a45df07af3d28b87810510f6987
   SDWebImage: 0e435c14e402a6730315a0fb79f95e68654d55a4
   SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30

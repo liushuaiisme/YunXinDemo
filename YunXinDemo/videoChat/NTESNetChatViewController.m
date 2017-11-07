@@ -964,7 +964,7 @@ NTES_FORBID_INTERACTIVE_POP
         //磨皮强度
         [[NIMAVChatSDK sharedSDK].netCallManager setSmoothFilterIntensity:0.7];
         //两种方式显示在本地镜像
-        //[[NIMAVChatSDK sharedSDK].netCallManager setCodeMirror:YES];
+//        [[NIMAVChatSDK sharedSDK].netCallManager setCodeMirror:YES];
         [[NIMAVChatSDK sharedSDK].netCallManager setPreViewMirror:YES];
         //发送SampleBuffer
         [[NIMAVChatSDK  sharedSDK].netCallManager sendVideoSampleBuffer:sampleBuffer];

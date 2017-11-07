@@ -80,11 +80,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
-  install_resource "NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle"
+  install_resource "NIMSDK/NIM_iOS_SDK_v4.3.0/NIMAVChat/Resources/NMCVideoFilter.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
-  install_resource "NIMSDK/NIMAVChat/Resources/NMCVideoFilter.bundle"
+  install_resource "NIMSDK/NIM_iOS_SDK_v4.3.0/NIMAVChat/Resources/NMCVideoFilter.bundle"
   install_resource "SVProgressHUD/SVProgressHUD/SVProgressHUD.bundle"
 fi
 

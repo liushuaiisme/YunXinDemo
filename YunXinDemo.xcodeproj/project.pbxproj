@@ -8,6 +8,22 @@
 
 /* Begin PBXBuildFile section */
 		32D1FFEEB8F3610DF12A0ED4 /* libPods-YunXinDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = C623EE0EA814AA99BCC1CAFA /* libPods-YunXinDemo.a */; };
+		57136AC31FB1B662009EA786 /* color.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136A9C1FB1B662009EA786 /* color.c */; };
+		57136AC41FB1B662009EA786 /* common.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136A9D1FB1B662009EA786 /* common.c */; };
+		57136AC51FB1B662009EA786 /* rgb.fsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136A9F1FB1B662009EA786 /* rgb.fsh.c */; };
+		57136AC61FB1B662009EA786 /* yuv420p.fsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA01FB1B662009EA786 /* yuv420p.fsh.c */; };
+		57136AC71FB1B662009EA786 /* yuv420sp.fsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA11FB1B662009EA786 /* yuv420sp.fsh.c */; };
+		57136AC81FB1B662009EA786 /* yuv444p10le.fsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA21FB1B662009EA786 /* yuv444p10le.fsh.c */; };
+		57136AC91FB1B662009EA786 /* renderer.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA41FB1B662009EA786 /* renderer.c */; };
+		57136ACA1FB1B662009EA786 /* renderer_rgb.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA51FB1B662009EA786 /* renderer_rgb.c */; };
+		57136ACB1FB1B662009EA786 /* renderer_yuv420p.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA61FB1B662009EA786 /* renderer_yuv420p.c */; };
+		57136ACC1FB1B662009EA786 /* renderer_yuv420sp.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA71FB1B662009EA786 /* renderer_yuv420sp.c */; };
+		57136ACD1FB1B662009EA786 /* renderer_yuv444p10le.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA81FB1B662009EA786 /* renderer_yuv444p10le.c */; };
+		57136ACE1FB1B662009EA786 /* shader.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AA91FB1B662009EA786 /* shader.c */; };
+		57136ACF1FB1B662009EA786 /* mvp.vsh.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AAB1FB1B662009EA786 /* mvp.vsh.c */; };
+		57136AD01FB1B662009EA786 /* ijksdl_timer.c in Sources */ = {isa = PBXBuildFile; fileRef = 57136AB81FB1B662009EA786 /* ijksdl_timer.c */; };
+		57136AD11FB1B662009EA786 /* IJKSDLGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57136AC01FB1B662009EA786 /* IJKSDLGLView.m */; };
+		57136AD21FB1B662009EA786 /* NTESGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57136AC21FB1B662009EA786 /* NTESGLView.m */; };
 		579A39741F0E1FFA00903E33 /* video_chat_tip_receiver.aac in Resources */ = {isa = PBXBuildFile; fileRef = 579A39721F0E1FFA00903E33 /* video_chat_tip_receiver.aac */; };
 		579A39751F0E1FFA00903E33 /* video_chat_tip_sender.aac in Resources */ = {isa = PBXBuildFile; fileRef = 579A39731F0E1FFA00903E33 /* video_chat_tip_sender.aac */; };
 		57D54A1F1F0DD61F005C2254 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A1E1F0DD61F005C2254 /* main.m */; };
@@ -20,7 +36,6 @@
 		57D54A481F0DD705005C2254 /* LSVideoController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3A1F0DD705005C2254 /* LSVideoController.m */; };
 		57D54A491F0DD705005C2254 /* LSTempModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3D1F0DD705005C2254 /* LSTempModel.m */; };
 		57D54A4A1F0DD705005C2254 /* NetCallChatInfo.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A3F1F0DD705005C2254 /* NetCallChatInfo.m */; };
-		57D54A4B1F0DD705005C2254 /* NTESGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A411F0DD705005C2254 /* NTESGLView.m */; };
 		57D54A4C1F0DD705005C2254 /* NTESNetChatViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */; };
 		57D54A4D1F0DD705005C2254 /* NTESVideoChatNetStatusView.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A451F0DD705005C2254 /* NTESVideoChatNetStatusView.m */; };
 		57D54A591F0DD72E005C2254 /* NTESBundleSetting.m in Sources */ = {isa = PBXBuildFile; fileRef = 57D54A501F0DD72E005C2254 /* NTESBundleSetting.m */; };
@@ -35,6 +50,45 @@
 
 /* Begin PBXFileReference section */
 		075CC4287CD16C9BE3D2DD46 /* Pods-YunXinDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-YunXinDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-YunXinDemo/Pods-YunXinDemo.release.xcconfig"; sourceTree = "<group>"; };
+		570F5A6B1FB1942F000FAA0C /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		570F5A6D1FB1944E000FAA0C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		570F5A6F1FB19462000FAA0C /* libstdc++.6.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libstdc++.6.tbd"; path = "usr/lib/libstdc++.6.tbd"; sourceTree = SDKROOT; };
+		57136A9C1FB1B662009EA786 /* color.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = color.c; sourceTree = "<group>"; };
+		57136A9D1FB1B662009EA786 /* common.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = common.c; sourceTree = "<group>"; };
+		57136A9F1FB1B662009EA786 /* rgb.fsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = rgb.fsh.c; sourceTree = "<group>"; };
+		57136AA01FB1B662009EA786 /* yuv420p.fsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv420p.fsh.c; sourceTree = "<group>"; };
+		57136AA11FB1B662009EA786 /* yuv420sp.fsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv420sp.fsh.c; sourceTree = "<group>"; };
+		57136AA21FB1B662009EA786 /* yuv444p10le.fsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = yuv444p10le.fsh.c; sourceTree = "<group>"; };
+		57136AA31FB1B662009EA786 /* internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = internal.h; sourceTree = "<group>"; };
+		57136AA41FB1B662009EA786 /* renderer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer.c; sourceTree = "<group>"; };
+		57136AA51FB1B662009EA786 /* renderer_rgb.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer_rgb.c; sourceTree = "<group>"; };
+		57136AA61FB1B662009EA786 /* renderer_yuv420p.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer_yuv420p.c; sourceTree = "<group>"; };
+		57136AA71FB1B662009EA786 /* renderer_yuv420sp.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer_yuv420sp.c; sourceTree = "<group>"; };
+		57136AA81FB1B662009EA786 /* renderer_yuv444p10le.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = renderer_yuv444p10le.c; sourceTree = "<group>"; };
+		57136AA91FB1B662009EA786 /* shader.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = shader.c; sourceTree = "<group>"; };
+		57136AAB1FB1B662009EA786 /* mvp.vsh.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = mvp.vsh.c; sourceTree = "<group>"; };
+		57136AAC1FB1B662009EA786 /* ijksdl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl.h; sourceTree = "<group>"; };
+		57136AAD1FB1B662009EA786 /* ijksdl_class.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_class.h; sourceTree = "<group>"; };
+		57136AAE1FB1B662009EA786 /* ijksdl_endian.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_endian.h; sourceTree = "<group>"; };
+		57136AAF1FB1B662009EA786 /* ijksdl_error.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_error.h; sourceTree = "<group>"; };
+		57136AB01FB1B662009EA786 /* ijksdl_fourcc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_fourcc.h; sourceTree = "<group>"; };
+		57136AB11FB1B662009EA786 /* ijksdl_gles2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_gles2.h; sourceTree = "<group>"; };
+		57136AB21FB1B662009EA786 /* ijksdl_inc_internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_inc_internal.h; sourceTree = "<group>"; };
+		57136AB31FB1B662009EA786 /* ijksdl_log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_log.h; sourceTree = "<group>"; };
+		57136AB41FB1B662009EA786 /* ijksdl_misc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_misc.h; sourceTree = "<group>"; };
+		57136AB51FB1B662009EA786 /* ijksdl_mutex.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_mutex.h; sourceTree = "<group>"; };
+		57136AB61FB1B662009EA786 /* ijksdl_stdinc.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_stdinc.h; sourceTree = "<group>"; };
+		57136AB71FB1B662009EA786 /* ijksdl_thread.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_thread.h; sourceTree = "<group>"; };
+		57136AB81FB1B662009EA786 /* ijksdl_timer.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = ijksdl_timer.c; sourceTree = "<group>"; };
+		57136AB91FB1B662009EA786 /* ijksdl_timer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_timer.h; sourceTree = "<group>"; };
+		57136ABA1FB1B662009EA786 /* ijksdl_video.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_video.h; sourceTree = "<group>"; };
+		57136ABB1FB1B662009EA786 /* ijksdl_vout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_vout.h; sourceTree = "<group>"; };
+		57136ABD1FB1B662009EA786 /* ijksdl_ios.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_ios.h; sourceTree = "<group>"; };
+		57136ABE1FB1B662009EA786 /* ijksdl_vout_overlay_videotoolbox.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ijksdl_vout_overlay_videotoolbox.h; sourceTree = "<group>"; };
+		57136ABF1FB1B662009EA786 /* IJKSDLGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IJKSDLGLView.h; sourceTree = "<group>"; };
+		57136AC01FB1B662009EA786 /* IJKSDLGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IJKSDLGLView.m; sourceTree = "<group>"; };
+		57136AC11FB1B662009EA786 /* NTESGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESGLView.h; sourceTree = "<group>"; };
+		57136AC21FB1B662009EA786 /* NTESGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESGLView.m; sourceTree = "<group>"; };
 		579A39721F0E1FFA00903E33 /* video_chat_tip_receiver.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_receiver.aac; sourceTree = "<group>"; };
 		579A39731F0E1FFA00903E33 /* video_chat_tip_sender.aac */ = {isa = PBXFileReference; lastKnownFileType = file; path = video_chat_tip_sender.aac; sourceTree = "<group>"; };
 		57D54A1A1F0DD61F005C2254 /* YunXinDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YunXinDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -55,8 +109,6 @@
 		57D54A3D1F0DD705005C2254 /* LSTempModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSTempModel.m; sourceTree = "<group>"; };
 		57D54A3E1F0DD705005C2254 /* NetCallChatInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NetCallChatInfo.h; sourceTree = "<group>"; };
 		57D54A3F1F0DD705005C2254 /* NetCallChatInfo.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NetCallChatInfo.m; sourceTree = "<group>"; };
-		57D54A401F0DD705005C2254 /* NTESGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESGLView.h; sourceTree = "<group>"; };
-		57D54A411F0DD705005C2254 /* NTESGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESGLView.m; sourceTree = "<group>"; };
 		57D54A421F0DD705005C2254 /* NTESNetChatViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESNetChatViewController.h; sourceTree = "<group>"; };
 		57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NTESNetChatViewController.m; sourceTree = "<group>"; };
 		57D54A441F0DD705005C2254 /* NTESVideoChatNetStatusView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NTESVideoChatNetStatusView.h; sourceTree = "<group>"; };
@@ -101,6 +153,89 @@
 				075CC4287CD16C9BE3D2DD46 /* Pods-YunXinDemo.release.xcconfig */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		57136A991FB1B662009EA786 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				57136A9A1FB1B662009EA786 /* ijksdl */,
+				57136AC11FB1B662009EA786 /* NTESGLView.h */,
+				57136AC21FB1B662009EA786 /* NTESGLView.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		57136A9A1FB1B662009EA786 /* ijksdl */ = {
+			isa = PBXGroup;
+			children = (
+				57136A9B1FB1B662009EA786 /* gles2 */,
+				57136AAC1FB1B662009EA786 /* ijksdl.h */,
+				57136AAD1FB1B662009EA786 /* ijksdl_class.h */,
+				57136AAE1FB1B662009EA786 /* ijksdl_endian.h */,
+				57136AAF1FB1B662009EA786 /* ijksdl_error.h */,
+				57136AB01FB1B662009EA786 /* ijksdl_fourcc.h */,
+				57136AB11FB1B662009EA786 /* ijksdl_gles2.h */,
+				57136AB21FB1B662009EA786 /* ijksdl_inc_internal.h */,
+				57136AB31FB1B662009EA786 /* ijksdl_log.h */,
+				57136AB41FB1B662009EA786 /* ijksdl_misc.h */,
+				57136AB51FB1B662009EA786 /* ijksdl_mutex.h */,
+				57136AB61FB1B662009EA786 /* ijksdl_stdinc.h */,
+				57136AB71FB1B662009EA786 /* ijksdl_thread.h */,
+				57136AB81FB1B662009EA786 /* ijksdl_timer.c */,
+				57136AB91FB1B662009EA786 /* ijksdl_timer.h */,
+				57136ABA1FB1B662009EA786 /* ijksdl_video.h */,
+				57136ABB1FB1B662009EA786 /* ijksdl_vout.h */,
+				57136ABC1FB1B662009EA786 /* ios */,
+			);
+			path = ijksdl;
+			sourceTree = "<group>";
+		};
+		57136A9B1FB1B662009EA786 /* gles2 */ = {
+			isa = PBXGroup;
+			children = (
+				57136A9C1FB1B662009EA786 /* color.c */,
+				57136A9D1FB1B662009EA786 /* common.c */,
+				57136A9E1FB1B662009EA786 /* fsh */,
+				57136AA31FB1B662009EA786 /* internal.h */,
+				57136AA41FB1B662009EA786 /* renderer.c */,
+				57136AA51FB1B662009EA786 /* renderer_rgb.c */,
+				57136AA61FB1B662009EA786 /* renderer_yuv420p.c */,
+				57136AA71FB1B662009EA786 /* renderer_yuv420sp.c */,
+				57136AA81FB1B662009EA786 /* renderer_yuv444p10le.c */,
+				57136AA91FB1B662009EA786 /* shader.c */,
+				57136AAA1FB1B662009EA786 /* vsh */,
+			);
+			path = gles2;
+			sourceTree = "<group>";
+		};
+		57136A9E1FB1B662009EA786 /* fsh */ = {
+			isa = PBXGroup;
+			children = (
+				57136A9F1FB1B662009EA786 /* rgb.fsh.c */,
+				57136AA01FB1B662009EA786 /* yuv420p.fsh.c */,
+				57136AA11FB1B662009EA786 /* yuv420sp.fsh.c */,
+				57136AA21FB1B662009EA786 /* yuv444p10le.fsh.c */,
+			);
+			path = fsh;
+			sourceTree = "<group>";
+		};
+		57136AAA1FB1B662009EA786 /* vsh */ = {
+			isa = PBXGroup;
+			children = (
+				57136AAB1FB1B662009EA786 /* mvp.vsh.c */,
+			);
+			path = vsh;
+			sourceTree = "<group>";
+		};
+		57136ABC1FB1B662009EA786 /* ios */ = {
+			isa = PBXGroup;
+			children = (
+				57136ABD1FB1B662009EA786 /* ijksdl_ios.h */,
+				57136ABE1FB1B662009EA786 /* ijksdl_vout_overlay_videotoolbox.h */,
+				57136ABF1FB1B662009EA786 /* IJKSDLGLView.h */,
+				57136AC01FB1B662009EA786 /* IJKSDLGLView.m */,
+			);
+			path = ios;
 			sourceTree = "<group>";
 		};
 		579A39711F0E1FFA00903E33 /* Sounds */ = {
@@ -162,13 +297,12 @@
 		57D54A341F0DD705005C2254 /* videoChat */ = {
 			isa = PBXGroup;
 			children = (
+				57136A991FB1B662009EA786 /* View */,
+				57D54A3B1F0DD705005C2254 /* Model */,
 				57D54A371F0DD705005C2254 /* LSAudioController.h */,
 				57D54A381F0DD705005C2254 /* LSAudioController.m */,
 				57D54A391F0DD705005C2254 /* LSVideoController.h */,
 				57D54A3A1F0DD705005C2254 /* LSVideoController.m */,
-				57D54A3B1F0DD705005C2254 /* Model */,
-				57D54A401F0DD705005C2254 /* NTESGLView.h */,
-				57D54A411F0DD705005C2254 /* NTESGLView.m */,
 				57D54A421F0DD705005C2254 /* NTESNetChatViewController.h */,
 				57D54A431F0DD705005C2254 /* NTESNetChatViewController.m */,
 				57D54A441F0DD705005C2254 /* NTESVideoChatNetStatusView.h */,
@@ -221,6 +355,9 @@
 		63ED1F4782BA9A697BA70103 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				570F5A6F1FB19462000FAA0C /* libstdc++.6.tbd */,
+				570F5A6D1FB1944E000FAA0C /* libz.tbd */,
+				570F5A6B1FB1942F000FAA0C /* libc++.tbd */,
 				C623EE0EA814AA99BCC1CAFA /* libPods-YunXinDemo.a */,
 			);
 			name = Frameworks;
@@ -353,22 +490,37 @@
 			files = (
 				57D54A481F0DD705005C2254 /* LSVideoController.m in Sources */,
 				57D54A491F0DD705005C2254 /* LSTempModel.m in Sources */,
+				57136AC91FB1B662009EA786 /* renderer.c in Sources */,
 				57D54A821F0DD74A005C2254 /* UIView+NTES.m in Sources */,
+				57136AC71FB1B662009EA786 /* yuv420sp.fsh.c in Sources */,
 				57D54A251F0DD61F005C2254 /* ViewController.m in Sources */,
+				57136AC61FB1B662009EA786 /* yuv420p.fsh.c in Sources */,
 				57D54A4A1F0DD705005C2254 /* NetCallChatInfo.m in Sources */,
+				57136AC81FB1B662009EA786 /* yuv444p10le.fsh.c in Sources */,
 				57D54A591F0DD72E005C2254 /* NTESBundleSetting.m in Sources */,
 				57D54A5D1F0DD72E005C2254 /* NTESTimerHolder.m in Sources */,
 				57D54A5B1F0DD72E005C2254 /* NTESNotificationCenter.m in Sources */,
+				57136AC51FB1B662009EA786 /* rgb.fsh.c in Sources */,
+				57136AD01FB1B662009EA786 /* ijksdl_timer.c in Sources */,
+				57136ACA1FB1B662009EA786 /* renderer_rgb.c in Sources */,
+				57136ACE1FB1B662009EA786 /* shader.c in Sources */,
 				57D54A771F0DD74A005C2254 /* LSLabel.m in Sources */,
 				57D54A221F0DD61F005C2254 /* AppDelegate.m in Sources */,
-				57D54A4B1F0DD705005C2254 /* NTESGLView.m in Sources */,
+				57136AD21FB1B662009EA786 /* NTESGLView.m in Sources */,
 				57D54A1F1F0DD61F005C2254 /* main.m in Sources */,
 				57D54A4C1F0DD705005C2254 /* NTESNetChatViewController.m in Sources */,
 				57D54A7E1F0DD74A005C2254 /* SVProgressHUD+Ext.m in Sources */,
 				57D54A5A1F0DD72E005C2254 /* NTESClientUtil.m in Sources */,
+				57136ACC1FB1B662009EA786 /* renderer_yuv420sp.c in Sources */,
 				57D54A471F0DD705005C2254 /* LSAudioController.m in Sources */,
+				57136AD11FB1B662009EA786 /* IJKSDLGLView.m in Sources */,
+				57136AC31FB1B662009EA786 /* color.c in Sources */,
+				57136ACD1FB1B662009EA786 /* renderer_yuv444p10le.c in Sources */,
 				57D54A5C1F0DD72E005C2254 /* NTESService.m in Sources */,
+				57136ACF1FB1B662009EA786 /* mvp.vsh.c in Sources */,
+				57136ACB1FB1B662009EA786 /* renderer_yuv420p.c in Sources */,
 				57D54A4D1F0DD705005C2254 /* NTESVideoChatNetStatusView.m in Sources */,
+				57136AC41FB1B662009EA786 /* common.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -492,6 +644,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG2H52LECZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/NIMSDK/NIM_iOS_SDK_v4.3.0/NIMSDK\"",
+					"\"${PODS_ROOT}/NIMSDK/NIM_iOS_SDK_v4.3.0/NIMAVChat\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YunXinDemo/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
@@ -525,6 +682,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = CG2H52LECZ;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"${PODS_ROOT}/NIMSDK/NIM_iOS_SDK_v4.3.0/NIMSDK\"",
+					"\"${PODS_ROOT}/NIMSDK/NIM_iOS_SDK_v4.3.0/NIMAVChat\"",
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "$(SRCROOT)/YunXinDemo/PrefixHeader.pch";
 				HEADER_SEARCH_PATHS = (
