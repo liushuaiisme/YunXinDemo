@@ -283,15 +283,16 @@ NTES_FORBID_INTERACTIVE_POP
 
     
 }
-
+//接受拒绝通话
 - (void)response:(BOOL)accept{
     
     _calleeResponsed = YES;
     
     NIMNetCallOption *option = [[NIMNetCallOption alloc] init];
-
+    //设置视频参数
     [self fillUserSetting:option];
-    
+    //被叫端打开美颜
+    option.videoCaptureParam.provideLocalVideoProcess = (self.callInfo.callType == NIMNetCallTypeVideo);
     __weak typeof(self) wself = self;
 
     [[NIMAVChatSDK sharedSDK].netCallManager response:self.callInfo.callID accept:accept option:option completion:^(NSError *error, UInt64 callID) {
